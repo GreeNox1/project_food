@@ -17,11 +17,11 @@ void main() async {
 
   /// Endi esa qiymatlarni berib bo'lgandan so'ng, api ga ma'lumotlarni post qilamiz va for orqali bu ishni 10 marta takrorlaymiz
 
-  // for (int i = 0; i < 10; i++){
-  //   String response = await NetworkService.postData(food.toJson());
-  //
-  //   print(response);
-  // }
+  for (int i = 0; i < 10; i++){
+    String response = await NetworkService.postData(food.toJson());
+
+    print(response);
+  }
 
   /// Bu yerda esa api ga joylangan ma'lumotlarni get orqali String toifali o'zgaruvchiga ma'lumotlarni saqlab olamiz
 
