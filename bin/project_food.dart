@@ -39,4 +39,6 @@ void main() async {
       print(result);
     }
   }
+
+  print("Hello");
 }
